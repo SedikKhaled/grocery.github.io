@@ -1,0 +1,411 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="css/style.css">
+     <link rel="stylesheet" href="css/all.min.css">
+     <title>grocery shop</title>
+ </head>
+ <body>
+<header class="head">
+
+<div class="header-1">
+    <a href="#" class="logo"><i class="fas fa-shopping-basket" style="color: #26ae60;"></i>groco</a>
+    <form class="search-box-container">
+    <input type="search" id="search-box" placeholder="search here...">
+    <label for="search-box" class="fas fa-search"></label>
+</form>
+</div>
+<div class="header-2">
+    <div id="menu-bar" class="fas fa-bars"></div>
+    <nav class="navbar">
+        <a href="home">home</a>
+        <a href="category">category</a>
+        <a href="product">product</a>
+        <a href="deal">deal</a>
+        <a href="contact">contact</a>
+    </nav>
+    <div class="icons">
+        <a href="#" class="fas fa-shopping-cart shh"></a>
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-user-circle"></a>
+    </div>
+</div>
+</header>
+
+<div class="cart">
+    <h2>your cart shopping</h2>
+
+    <div class="cart-content">
+
+        <div class="cart-box">
+
+            <div class="details-box">
+                <div class="cart-product-title"><img src="images/product-3.png" class="image" alt=""></div>
+                <div class="cart-product-price">25$ </div>
+                <input id="out" type="number" value="1" min="0" max="100" class="cart-quantity"> <i onclick="window.out.value='0'" class="fa-solid fa-trash trash"></i>
+            </div>
+           
+        </div>
+<hr>
+    </div>
+    <div class="total"></div>
+    <div class="total-sedik">
+<div class="total-title">total</div>
+<div class="total-price">$0</div>
+</div>
+<button type="button" class="btn-buy">Buy Now</button>
+<i class="fa-solid fa-x x"></i>
+</div>
+</div>
+<section class="onth-container">
+    <img src="images/home-img.png" class="pic-onth" alt="">
+     <div class="onth-contain">
+         <p class="onth-p">fresh and organic</p>
+         <p class="onth-p2">your daily need</p>
+         <p class="onth-p3">products</p>
+         <button class="onth-btn">get started</button>
+     </div>
+</section>
+
+<section class="second-container">
+    <div class="banner">
+        <div class="content">
+        <img src="images/banner-1.jpg" class="second-pic1" alt="">
+        <p class="second-p">limited offer</p>
+        <span class="second-span">upto 50%off</span>
+        <button class="second-btn">check out</button>
+    </div>
+    <div class="content">
+        <img src="images/banner-2.jpg" class="second-pic1" alt="saff">
+        <p class="second-p">limited offer</p>
+        <span class="second-span">upto 50%off</span>
+        <button class="second-btn">check out</button>
+    </div>
+    </div>
+</section>
+<section class="third">
+    <h1 class="third-h1">shop by <span>category</span> </h1>
+    <div class="boxes">
+        <div class="box">
+<img src="images/category-1.png" class="third-pic" alt="">
+    <h3 class="third-h3"> vegetables </h3>
+    <span class="third-span">upto 30% off</span>
+    <button class="third-btn">shop now</button>
+        </div>
+        <div class="box">
+            <img src="images/category-2.png" class="third-pic"  alt="">
+                <h3 class="third-h3"> juice </h3>
+                <span class="third-span">upto 40% off</span>
+                <button class="third-btn">shop now</button>
+                    </div>
+                    <div class="box">
+                        <img src="images/category-3.png" class="third-pic"  alt="">
+                            <h3 class="third-h3"> meat</h3>
+                            <span class="third-span">upto 20% off</span>
+                            <button class="third-btn">shop now</button>
+                                </div>
+                                <div class="box">
+                                    <img src="images/category-4.png" class="third-pic"  alt="">
+                                        <h3 class="third-h3"> fruits </h3>
+                                        <span class="third-span">upto 50% off</span>
+                                        <button class="third-btn">shop now</button>
+                                            </div>
+    </div>
+</section>
+
+<section class="fourth">
+    <h1 class="fourth-h1">
+        latest <span>products</span>
+    </h1>
+    <div class="container">
+
+        <div class="con">
+            <span class="discount">-33%</span>
+            <div class="icon">
+             <a href="#" class="fas fa-heart"></a>
+             <a href="#" class="fas fa-share"></a>
+             <a href="#" class="fas fa-eye"></a>
+            </div>
+            <img src="images/product-1.png" alt="">
+            <h3 class="con-pic">oraganic banana</h3>
+            <div class="stars">
+                <img src="images/no fill star.png" class="ratea" alt="">
+                <img src="images/no fill star.png"  class="ratea" alt="">
+                <img src="images/no fill star.png"  class="ratea" alt="">
+                <img src="images/no fill star.png"  class="ratea" alt="">
+                <img src="images/no fill star.png"  class="ratea" alt="">
+        </div>
+        <p class="price">$10.50 <span class="pric-false">15.20</span></p>
+        <div class="quantity"><span class="quantity:">quantity1</span>
+            <input type="number" value="1" min="0" max="30" name="" id="">
+            <span>/kg</span>
+        </div>
+
+        <button class="third-btn">add to cart</button>
+        </div>
+        <div class="con">
+            <span class="discount">-33%</span>
+            <div class="icon">
+             <a href="#" class="fas fa-heart"></a>
+             <a href="#" class="fas fa-share"></a>
+             <a href="#" class="fas fa-eye"></a>
+            </div>
+            <img src="images/product-2.png" alt="">
+            <h3 class="con-pic">oraganic banana</h3>
+            <div class="stars">
+                <img src="images/no fill star.png"  class="rateb" alt="">
+                <img src="images/no fill star.png"  class="rateb" alt="">
+                <img src="images/no fill star.png"  class="rateb" alt="">
+                <img src="images/no fill star.png"  class="rateb" alt="">
+                <img src="images/no fill star.png"  class="rateb" alt="">
+        </div>
+        <p class="price">$10.50 <span  class="pric-false">15.20</span></p>
+        <div class="quantity"><span class="quantity:">quantity1</span>
+            <input type="number" value="1" min="0" max="30" name="" id="">
+            <span>/kg</span>
+        </div>
+
+        <button class="third-btn">add to cart</button>
+        </div>
+        <div class="con">
+            <span class="discount">-33%</span>
+            <div class="icon">
+             <a href="#" class="fas fa-heart"></a>
+             <a href="#" class="fas fa-share"></a>
+             <a href="#" class="fas fa-eye"></a>
+            </div>
+            <img src="images/product-3.png" alt="">
+            <h3 class="con-pic">oraganic banana</h3>
+            <div class="stars">
+                <img src="images/no fill star.png"  class="ratec" alt="">
+                <img src="images/no fill star.png"  class="ratec" alt="">
+                <img src="images/no fill star.png"  class="ratec" alt="">
+                <img src="images/no fill star.png"  class="ratec" alt="">
+                <img src="images/no fill star.png"  class="ratec" alt="">
+        </div>
+        <p class="price">$10.50 <span  class="pric-false">15.20</span></p>
+        <div class="quantity"><span class="quantity:">quantity1</span>
+            <input type="number" value="1" min="0" max="30" name="" id="">
+            <span>/kg</span>
+        </div>
+
+        <button class="third-btn">add to cart</button>
+        </div>
+        <div class="con">
+            <span class="discount">-33%</span>
+            <div class="icon">
+             <a href="#" class="fas fa-heart"></a>
+             <a href="#" class="fas fa-share"></a>
+             <a href="#" class="fas fa-eye"></a>
+            </div>
+            <img src="images/product-4.png" alt="">
+            <h3 class="con-pic">oraganic banana</h3>
+            <div class="stars">
+                <img src="images/no fill star.png"  class="rated" alt="">
+                <img src="images/no fill star.png"  class="rated" alt="">
+                <img src="images/no fill star.png"  class="rated" alt="">
+                <img src="images/no fill star.png"  class="rated" alt="">
+                <img src="images/no fill star.png"  class="rated" alt="">
+        </div>
+        <p class="price">$10.50 <span class="pric-false">15.20</span></p>
+        <div class="quantity"><span class="quantity:">quantity1</span>
+            <input type="number" value="1" min="0" max="30" name="" id="">
+            <span>/kg</span>
+        </div>
+
+        <button class="third-btn">add to cart</button>
+        </div>
+        <div class="con">
+            <span class="discount">-33%</span>
+            <div class="icon">
+             <a href="#" class="fas fa-heart"></a>
+             <a href="#" class="fas fa-share"></a>
+             <a href="#" class="fas fa-eye"></a>
+            </div>
+            <img src="images/product-5.png" alt="">
+            <h3 class="con-pic">oraganic banana</h3>
+            <div class="stars">
+                <img src="images/no fill star.png"   class="ratee" alt="">
+                <img src="images/no fill star.png"  class="ratee" alt="">
+                <img src="images/no fill star.png"  class="ratee" alt="">
+                <img src="images/no fill star.png"  class="ratee" alt="">
+                <img src="images/no fill star.png"  class="ratee" alt="">
+        </div>
+        <p class="price">$10.50 <span class="pric-false">15.20</span></p>
+        <div class="quantity"><span class="quantity:">quantity1</span>
+            <input type="number" value="1" min="0" max="30" name="" id="">
+            <span>/kg</span>
+        </div>
+
+        <button class="third-btn">add to cart</button>
+        </div>
+        <div class="con">
+            <span class="discount">-33%</span>
+            <div class="icon">
+             <a href="#" class="fas fa-heart"></a>
+             <a href="#" class="fas fa-share"></a>
+             <a href="#" class="fas fa-eye"></a>
+            </div>
+            <img src="images/product-6.png" alt="">
+            <h3 class="con-pic">oraganic banana</h3>
+            <div class="stars">
+                <img src="images/no fill star.png"  class="ratef" alt="">
+                <img src="images/no fill star.png"  class="ratef" alt="">
+                <img src="images/no fill star.png"  class="ratef" alt="">
+                <img src="images/no fill star.png"  class="ratef" alt="">
+                <img src="images/no fill star.png"  class="ratef" alt="">
+        </div>
+        <p class="price">$10.50 <span class="pric-false">15.20</span></p>
+        <div class="quantity"><span class="quantity:">quantity1</span>
+            <input type="number" value="1" min="0" max="30" name="" id="">
+            <span>/kg</span>
+        </div>
+
+        <button class="third-btn">add to cart</button>
+        </div>
+        <div class="con">
+            <span class="discount">-33%</span>
+            <div class="icon">
+             <a href="#" class="fas fa-heart"></a>
+             <a href="#" class="fas fa-share"></a>
+             <a href="#" class="fas fa-eye"></a>
+            </div>
+            <img src="images/product-7.png" alt="">
+            <h3 class="con-pic">oraganic banana</h3>
+            <div class="stars">
+                <img src="images/no fill star.png"  class="rateg" alt="">
+                <img src="images/no fill star.png"  class="rateg" alt="">
+                <img src="images/no fill star.png"  class="rateg"alt="">
+                <img src="images/no fill star.png"  class="rateg" alt="">
+                <img src="images/no fill star.png"  class="rateg" alt="">
+        </div>
+        <p class="price">$10.50 <span class="pric-false">15.20</span></p>
+        <div class="quantity"><span class="quantity:">quantity1</span>
+            <input type="number" min="0" max="30" name="" id="">
+            <span>/kg</span>
+        </div>
+
+        <button class="third-btn">add to cart</button>
+        </div>
+        <div class="con">
+            <span class="discount">-33%</span>
+            <div class="icon">
+             <a href="#" class="fas fa-heart"></a>
+             <a href="#" class="fas fa-share"></a>
+             <a href="#" class="fas fa-eye"></a>
+            </div>
+            <img src="images/product-8.png" alt="">
+            <h3 class="con-pic">oraganic banana</h3>
+            <div class="stars">
+            <img src="images/no fill star.png" class="rateh" alt="">
+            <img src="images/no fill star.png" class="rateh" alt="">
+            <img src="images/no fill star.png" class="rateh" alt="">
+            <img src="images/no fill star.png" class="rateh" alt="">
+            <img src="images/no fill star.png" class="rateh" alt="">
+        </div>
+        <p class="price">$10.50 <span class="pric-false">15.20</span></p>
+        <div class="quantity"><span class="quantity:">quantity1</span>
+            <input type="number" value="1" min="0" max="30" name="" id="">
+            <span>/kg</span>
+        </div>
+
+        <button class="third-btn">add to cart</button>
+        </div>
+        <div class="con">
+            <span class="discount">-33%</span>
+            <div class="icon">
+             <a href="#" class="fas fa-heart"></a>
+             <a href="#" class="fas fa-share"></a>
+             <a href="#" class="fas fa-eye"></a>
+            </div>
+            <img src="images/product-9.png" alt="">
+            <h3 class="con-pic">oraganic banana</h3>
+            <div class="stars">
+                <img src="images/no fill star.png" class="ratei" alt="">
+                <img src="images/no fill star.png" class="ratei" alt="">
+                <img src="images/no fill star.png" class="ratei" alt="">
+                <img src="images/no fill star.png" class="ratei" alt="">
+                <img src="images/no fill star.png" class="ratei" alt="">
+        </div>
+        <p class="price">$10.50 <span class="pric-false">15.20</span></p>
+        <div class="quantity"><span class="quantity:">quantity1</span>
+        <input type="number" value="1" min="0" max="30" name="" id="">
+        <span>/kg</span>
+    </div>
+
+        <button class="third-btn">add to cart</button>
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="fifth">
+    <div class="fifth-content">
+        
+    <h1 class="fifth-h1">deal of the day</h1>
+    <p class="fifth-p">Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Ipsa nesciunt, deserunt ratione nostrum ea soluta.<br> Lorem ipsum dolor sit amet consectetur adipisicing elit.?</p>
+    <div class="cut-down">
+        <div class="box-down">
+            <h3 id="day">00</h3>
+            <span>day</span>
+        </div>
+        <div class="box-down">
+            <h3 id="hour">00</h3>
+            <span>hour</span>
+        </div>
+        <div class="box-down">
+            <h3 id="minute">00</h3>
+            <span>minute</span>
+        </div>
+        <div class="box-down">
+            <h3 id="second">00</h3>
+            <span>second</span>
+        </div>
+    </div>
+    <button class="fifth-btn">cheack the deal</button>
+</div>
+</section>
+
+<section class="form-section">
+<h1 class="form-h1"><span>contact</span> us</h1>
+<form action="">
+        <div class="form-1">
+          <input class="one"  type="text" placeholder="name">
+          <input class="two" type="email"  placeholder="enter your age">
+        </div>
+        <div class="form-1">
+          <input class="three"  type="number"  placeholder="enter your age">
+          <input class="four" type="text"  placeholder="subject">
+        </div>
+        <textarea  name="" placeholder="message" id="" cols="30" rows="10"></textarea>
+      <button type="submit" class="form-btn">
+          send message
+      </button>
+      </form>
+</section>
+
+<section class="subscribe">
+    <img src="images/newsletter-bg.jpg" alt="">
+    <div class="sub-conten">
+        <h1 class="subs-h1">subscribe for latest update</h1>
+        <div class="sub-conten2">
+            <form action="">
+        <input type="email" placeholder="enter your email"><span><input class="button" type="submit" value="subscribe"></span>
+    </form>
+    </div>
+        
+    </div>
+
+</section>
+<footer class="foot">designed by <span>eng:sedik khaled</span></footer>
+
+<h1 class="main-heading" style="color:#26ae60">hi iam</h1>
+
+<script src="sedik.js"></script>
+ </body>
+ </html>
